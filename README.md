@@ -34,4 +34,18 @@ criação de processos utilizando o motor de BPM.
 * Documentação de hAPI para os eventos de processo: https://tdn.engpro.totvs.com.br/display/public/fluig/hAPI
 * Documentação de Mascara de Campos: https://tdn.totvs.com/pages/releaseview.action?pageId=663066946#Personaliza%C3%A7%C3%A3odeformul%C3%A1rios-M%C3%A1scaradeCampos
 * Sincronização de dataset: https://tdn.totvs.com/pages/releaseview.action?pageId=212899013
-  
+ 
+
+# Configuração do Setup (dev fluig)
+
+* Instalação do JDK (1.8) - Java 8
+* Instalar o Eclipse (Versões Homologas / Não Homologadas)
+* Fluig Studio (Ambiente de desenvolvimento fluig)
+  * Criação do projetos 
+  * Desenhos de Worflow (BPM)
+  * Criação de scripts / eventos (BPM / WCM) 
+  * Deploy (Envio do código para o servidor)
+  * Cadastro e gerenciamento de serviços (Webservices)
+  * manipulamento de dataset (estruturas de dados)
+  * Desenvolvimento de formulários (BPM)
+  * Criação e desenvolvimento de widgets (WCM)
