@@ -26,6 +26,8 @@ criação de processos utilizando o motor de BPM.
 * fluig youtube - https://www.youtube.com/c/fluigtv/videos
 * eclipse documentation: https://wiki.eclipse.org/Eclipse/Installation
 * release notes fluig: https://tdn.engpro.totvs.com.br/pages/releaseview.action?pageId=605859464
+* Apostila BPM Essencials - https://academy.fluig.com/bpm_essentials_conteudo
+* Apostila BPM Intermediate - https://academy.fluig.com/bpm_intermediate_indice
 * Documentação de dataset internos: https://tdn.totvs.com/display/public/fluig/Datasets+internos
 * Documentação de dataset simples: https://tdn.totvs.com/display/public/fluig/Dataset+Simples
 * Documentação de dataset customizados: https://tdn.totvs.com/pages/releaseview.action?pageId=412888219
