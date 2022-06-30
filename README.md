@@ -36,7 +36,7 @@ criação de processos utilizando o motor de BPM.
 * Documentação de hAPI para os eventos de processo: https://tdn.engpro.totvs.com.br/display/public/fluig/hAPI
 * Documentação de Mascara de Campos: https://tdn.totvs.com/pages/releaseview.action?pageId=663066946#Personaliza%C3%A7%C3%A3odeformul%C3%A1rios-M%C3%A1scaradeCampos
 * Sincronização de dataset: https://tdn.totvs.com/pages/releaseview.action?pageId=212899013
-* Elementos BPM 2.0 - https://tdn.totvs.com/display/public/fluig/Gateways 
+* Elementos BPM 2.0: https://tdn.totvs.com/pages/releaseview.action?pageId=126714181
 
 # Configuração do Setup (dev fluig)
 
