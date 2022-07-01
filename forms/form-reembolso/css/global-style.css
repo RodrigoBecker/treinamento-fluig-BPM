@@ -3,3 +3,8 @@
   font-size: 18px !important;
   
 }
+
+.custom-textarea {
+  resize: none;
+}
+

@@ -30,7 +30,10 @@
         </div>
       </div>
       <form name="form" role="form">
-        <div class="panel panel-success">
+
+        <!--section 04 -->
+
+        <div class="panel panel-success" id="user">
           <div class="panel-heading">Dados do Usuario</div>
           <div class="panel-body">
             <fieldset>
@@ -107,6 +110,63 @@
             </fieldset>
           </div>
         </div>
+
+        <!--Session  05 -->
+        <div class="panel panel-success" id="analysi">
+          <div class="panel-heading">Validação de Dados:</div>
+          <div class="panel-body">
+
+
+            <div class="row">
+              <div class="col-md-4">
+                <p>Os dados do reembolso estão corretos?</p>
+                <label class="radio-inline">
+                  <input type="radio" name="opt_approval" id="opt_approval-yes" value="1" checked> Sim
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="opt_approval" id="opt_approval-no" value="0"> Não
+                </label>
+              </div>
+            </div>
+            </br>
+            <div class="row">
+              <div class="col-md-12">
+                <label for="observation">Observações:</label>
+                <textarea name="observation" id="observation" class="form-control custom-textarea" rows="10"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--session 13 -->
+
+        <div class="panel panel-success" id="manager">
+          <div class="panel-heading">Aprovar Solicitação:</div>
+          <div class="panel-body">
+
+
+            <div class="row">
+              <div class="col-md-4">
+                <p>Você deseja aprovar esta solicitação?</p>
+                <label class="radio-inline">
+                  <input type="radio" name="opt_approval_manager" id="opt_approval_manager_yes" value="1" checked> Sim
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="opt_approval_manager" id="opt_approval_manager_no" value="0"> Não
+                </label>
+              </div>
+            </div>
+            </br>
+            <div class="row">
+              <div class="col-md-12">
+                <label for="observation_manager">Observações:</label>
+                <textarea name="observation_manager" id="observation_manager" class="form-control custom-textarea"
+                  rows="4"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </form>
     </div>
   </div>
