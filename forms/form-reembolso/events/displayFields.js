@@ -6,6 +6,15 @@ function displayFields(form, customHTML) {
     aprovar_reembolso: 13
   }
 
+  // methods 
+
+  // form.setValue("field", "value");
+  // form.getValue("field");
+  // form.setEnabled("field", boolean);
+  // form.setVisibleById("id", boolean);
+  // form.setVisible("field", boolean);
+  // 
+
 
   var listFields = ["name", "mail", "address", "numb", "cep", "rg", "cpf", "dpto"];
 

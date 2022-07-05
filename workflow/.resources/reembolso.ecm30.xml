@@ -28,7 +28,7 @@
     <processDefinitionVersionPK>
       <companyId>1</companyId>
       <processId>Processo de Reembolso 1.0</processId>
-      <version>7</version>
+      <version>1</version>
     </processDefinitionVersionPK>
     <versionDescription></versionDescription>
     <formId>173620</formId>
@@ -125,7 +125,7 @@
       <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
       <automatic>false</automatic>
       <positionX>240</positionX>
-      <positionY>220</positionY>
+      <positionY>189</positionY>
       <forecastedEffortType>0</forecastedEffortType>
       <forecastedEffort>0</forecastedEffort>
       <notifyManagerFollowUp>false</notifyManagerFollowUp>
@@ -174,58 +174,8 @@
       <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
       <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
       <automatic>false</automatic>
-      <positionX>640</positionX>
-      <positionY>339</positionY>
-      <forecastedEffortType>0</forecastedEffortType>
-      <forecastedEffort>0</forecastedEffort>
-      <notifyManagerFollowUp>false</notifyManagerFollowUp>
-      <notifyManagerDelay>false</notifyManagerDelay>
-      <allowanceManagerTime>0</allowanceManagerTime>
-      <frequenceManagerTime>0</frequenceManagerTime>
-      <inhibitTransfer>false</inhibitTransfer>
-      <periodId></periodId>
-      <stateType>0</stateType>
-      <bpmnType>80</bpmnType>
-      <signalId>0</signalId>
-      <counterSign>false</counterSign>
-      <openInstances>0</openInstances>
-      <noticeExpirationAuthorityTime>0</noticeExpirationAuthorityTime>
-      <noticeExpirationRequisitionerTime>0</noticeExpirationRequisitionerTime>
-      <noticeExpirationManagerTime>0</noticeExpirationManagerTime>
-      <destinationStates/>
-      <digitalSignature>false</digitalSignature>
-      <executionType>0</executionType>
-    </ProcessState>
-    <ProcessState>
-      <processStatePK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>1</version>
-        <sequence>20</sequence>
-      </processStatePK>
-      <stateName>Informar Financeiro (Sub)</stateName>
-      <stateDescription>Informar Financeiro (Sub)</stateDescription>
-      <instruction></instruction>
-      <deadlineTime>0</deadlineTime>
-      <deadlineFieldName></deadlineFieldName>
-      <joint>false</joint>
-      <agreementPercentage>0</agreementPercentage>
-      <selectColleague>1</selectColleague>
-      <initialState>false</initialState>
-      <notifyAuthorityDelay>true</notifyAuthorityDelay>
-      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
-      <allowanceAuthorityTime>3600</allowanceAuthorityTime>
-      <frequenceAuthorityTime>3600</frequenceAuthorityTime>
-      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
-      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
-      <transferAttachments>false</transferAttachments>
-      <subProcessId></subProcessId>
-      <formFolder>0</formFolder>
-      <notifyAuthorityFollowUp>true</notifyAuthorityFollowUp>
-      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
-      <automatic>false</automatic>
-      <positionX>196</positionX>
-      <positionY>383</positionY>
+      <positionX>437</positionX>
+      <positionY>342</positionY>
       <forecastedEffortType>0</forecastedEffortType>
       <forecastedEffort>0</forecastedEffort>
       <notifyManagerFollowUp>false</notifyManagerFollowUp>
@@ -262,7 +212,7 @@
       <formFolder>0</formFolder>
       <automatic>true</automatic>
       <positionX>460</positionX>
-      <positionY>210</positionY>
+      <positionY>180</positionY>
       <inhibitTransfer>false</inhibitTransfer>
       <stateType>1</stateType>
       <bpmnType>120</bpmnType>
@@ -278,31 +228,6 @@
         <version>1</version>
         <sequence>15</sequence>
       </processStatePK>
-      <stateName>Exclusive</stateName>
-      <stateDescription>Exclusive</stateDescription>
-      <joint>false</joint>
-      <initialState>false</initialState>
-      <transferAttachments>false</transferAttachments>
-      <subProcessId></subProcessId>
-      <formFolder>0</formFolder>
-      <automatic>true</automatic>
-      <positionX>400</positionX>
-      <positionY>380</positionY>
-      <inhibitTransfer>false</inhibitTransfer>
-      <stateType>1</stateType>
-      <bpmnType>120</bpmnType>
-      <signalId>0</signalId>
-      <openInstances>0</openInstances>
-      <destinationStates/>
-      <digitalSignature>false</digitalSignature>
-    </ProcessState>
-    <ProcessState>
-      <processStatePK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>1</version>
-        <sequence>24</sequence>
-      </processStatePK>
       <stateName>End</stateName>
       <stateDescription>End</stateDescription>
       <instruction>Atividade final do processo</instruction>
@@ -325,55 +250,8 @@
       <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
       <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
       <automatic>false</automatic>
-      <positionX>310</positionX>
-      <positionY>350</positionY>
-      <forecastedEffortType>0</forecastedEffortType>
-      <forecastedEffort>0</forecastedEffort>
-      <notifyManagerFollowUp>false</notifyManagerFollowUp>
-      <notifyManagerDelay>false</notifyManagerDelay>
-      <allowanceManagerTime>0</allowanceManagerTime>
-      <frequenceManagerTime>0</frequenceManagerTime>
-      <inhibitTransfer>false</inhibitTransfer>
-      <periodId></periodId>
-      <stateType>6</stateType>
-      <bpmnType>65</bpmnType>
-      <signalId>0</signalId>
-      <counterSign>false</counterSign>
-      <openInstances>0</openInstances>
-      <destinationStates/>
-      <digitalSignature>false</digitalSignature>
-    </ProcessState>
-    <ProcessState>
-      <processStatePK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>1</version>
-        <sequence>25</sequence>
-      </processStatePK>
-      <stateName>End</stateName>
-      <stateDescription>End</stateDescription>
-      <instruction>Atividade final do processo</instruction>
-      <deadlineTime>0</deadlineTime>
-      <joint>false</joint>
-      <agreementPercentage>0</agreementPercentage>
-      <engineAllocationId></engineAllocationId>
-      <engineAllocationConfiguration></engineAllocationConfiguration>
-      <selectColleague>0</selectColleague>
-      <initialState>false</initialState>
-      <notifyAuthorityDelay>true</notifyAuthorityDelay>
-      <notifyRequisitionerDelay>false</notifyRequisitionerDelay>
-      <allowanceAuthorityTime>0</allowanceAuthorityTime>
-      <frequenceAuthorityTime>1</frequenceAuthorityTime>
-      <allowanceRequisitionerTime>0</allowanceRequisitionerTime>
-      <frequenceRequisitionerTime>0</frequenceRequisitionerTime>
-      <transferAttachments>false</transferAttachments>
-      <subProcessId></subProcessId>
-      <formFolder>0</formFolder>
-      <notifyAuthorityFollowUp>false</notifyAuthorityFollowUp>
-      <notifyRequisitionerFollowUp>false</notifyRequisitionerFollowUp>
-      <automatic>false</automatic>
-      <positionX>115</positionX>
-      <positionY>405</positionY>
+      <positionX>686</positionX>
+      <positionY>358</positionY>
       <forecastedEffortType>0</forecastedEffortType>
       <forecastedEffort>0</forecastedEffort>
       <notifyManagerFollowUp>false</notifyManagerFollowUp>
@@ -391,56 +269,7 @@
       <digitalSignature>false</digitalSignature>
     </ProcessState>
   </list>
-  <list>
-    <ConditionProcessState>
-      <conditionProcessStatePK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <expressionOrder>1</expressionOrder>
-        <version>7</version>
-        <sequence>9</sequence>
-      </conditionProcessStatePK>
-      <condition>hAPI.getCardValue(&quot;opt_approval&quot;) == &quot;1&quot;</condition>
-      <destinationSequenceId>13</destinationSequenceId>
-      <conditionType>0</conditionType>
-    </ConditionProcessState>
-    <ConditionProcessState>
-      <conditionProcessStatePK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <expressionOrder>2</expressionOrder>
-        <version>7</version>
-        <sequence>9</sequence>
-      </conditionProcessStatePK>
-      <condition>hAPI.getCardValue(&quot;opt_approval&quot;) ==  &quot;0&quot;</condition>
-      <destinationSequenceId>4</destinationSequenceId>
-      <conditionType>0</conditionType>
-    </ConditionProcessState>
-    <ConditionProcessState>
-      <conditionProcessStatePK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <expressionOrder>1</expressionOrder>
-        <version>7</version>
-        <sequence>15</sequence>
-      </conditionProcessStatePK>
-      <condition></condition>
-      <destinationSequenceId>20</destinationSequenceId>
-      <conditionType>1</conditionType>
-    </ConditionProcessState>
-    <ConditionProcessState>
-      <conditionProcessStatePK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <expressionOrder>2</expressionOrder>
-        <version>7</version>
-        <sequence>15</sequence>
-      </conditionProcessStatePK>
-      <condition></condition>
-      <destinationSequenceId>24</destinationSequenceId>
-      <conditionType>1</conditionType>
-    </ConditionProcessState>
-  </list>
+  <list/>
   <list>
     <ProcessLink>
       <processLinkPK>
@@ -527,57 +356,6 @@
       <defaultLink>false</defaultLink>
       <type>0</type>
     </ProcessLink>
-    <ProcessLink>
-      <processLinkPK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>1</version>
-        <linkSequence>21</linkSequence>
-      </processLinkPK>
-      <actionLabel></actionLabel>
-      <returnPermited>false</returnPermited>
-      <initialStateSequence>15</initialStateSequence>
-      <finalStateSequence>20</finalStateSequence>
-      <returnLabel></returnLabel>
-      <name></name>
-      <automaticLink>false</automaticLink>
-      <defaultLink>false</defaultLink>
-      <type>0</type>
-    </ProcessLink>
-    <ProcessLink>
-      <processLinkPK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>1</version>
-        <linkSequence>23</linkSequence>
-      </processLinkPK>
-      <actionLabel></actionLabel>
-      <returnPermited>false</returnPermited>
-      <initialStateSequence>15</initialStateSequence>
-      <finalStateSequence>24</finalStateSequence>
-      <returnLabel></returnLabel>
-      <name></name>
-      <automaticLink>false</automaticLink>
-      <defaultLink>false</defaultLink>
-      <type>0</type>
-    </ProcessLink>
-    <ProcessLink>
-      <processLinkPK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>1</version>
-        <linkSequence>26</linkSequence>
-      </processLinkPK>
-      <actionLabel></actionLabel>
-      <returnPermited>false</returnPermited>
-      <initialStateSequence>20</initialStateSequence>
-      <finalStateSequence>25</finalStateSequence>
-      <returnLabel></returnLabel>
-      <name></name>
-      <automaticLink>false</automaticLink>
-      <defaultLink>false</defaultLink>
-      <type>0</type>
-    </ProcessLink>
   </list>
   <list/>
   <list>
@@ -625,8 +403,8 @@ process.description=reembolso
   <list>
     <SwimLane>
       <color>FFFFFF</color>
-      <height>471</height>
-      <width>961</width>
+      <height>401</height>
+      <width>951</width>
       <positionX>10</positionX>
       <positionY>10</positionY>
       <stateName>SOLICITACAO REEMBOLSO</stateName>
@@ -641,8 +419,8 @@ process.description=reembolso
     </SwimLane>
     <SwimLane>
       <color>9F9F9F</color>
-      <height>157</height>
-      <width>931</width>
+      <height>133</height>
+      <width>921</width>
       <positionX>40</positionX>
       <positionY>10</positionY>
       <stateName>Solicitante</stateName>
@@ -657,10 +435,10 @@ process.description=reembolso
     </SwimLane>
     <SwimLane>
       <color>C0C0C0</color>
-      <height>157</height>
-      <width>931</width>
+      <height>133</height>
+      <width>921</width>
       <positionX>40</positionX>
-      <positionY>167</positionY>
+      <positionY>143</positionY>
       <stateName>RH</stateName>
       <type>2</type>
       <parentSequence>1</parentSequence>
@@ -673,10 +451,10 @@ process.description=reembolso
     </SwimLane>
     <SwimLane>
       <color>82b0b7</color>
-      <height>157</height>
-      <width>931</width>
+      <height>135</height>
+      <width>921</width>
       <positionX>40</positionX>
-      <positionY>324</positionY>
+      <positionY>276</positionY>
       <stateName>Gestor da Area</stateName>
       <type>2</type>
       <parentSequence>1</parentSequence>
@@ -719,57 +497,24 @@ process.description=reembolso
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>reembolso</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>6</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
       <positionX>167</positionX>
-      <positionY>252</positionY>
+      <positionY>221</positionY>
     </ProcessLinkBend>
     <ProcessLinkBend>
       <processLinkBendPK>
         <companyId>1</companyId>
         <processId>reembolso</processId>
-        <version>7</version>
+        <version>1</version>
         <linkSequence>8</linkSequence>
         <bendSequence>1</bendSequence>
       </processLinkBendPK>
       <positionX>167</positionX>
       <positionY>51</positionY>
     </ProcessLinkBend>
-    <ProcessLinkBend>
-      <processLinkBendPK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>7</version>
-        <linkSequence>14</linkSequence>
-        <bendSequence>1</bendSequence>
-      </processLinkBendPK>
-      <positionX>490</positionX>
-      <positionY>371</positionY>
-    </ProcessLinkBend>
-    <ProcessLinkBend>
-      <processLinkBendPK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>7</version>
-        <linkSequence>16</linkSequence>
-        <bendSequence>1</bendSequence>
-      </processLinkBendPK>
-      <positionX>693</positionX>
-      <positionY>422</positionY>
-    </ProcessLinkBend>
-    <ProcessLinkBend>
-      <processLinkBendPK>
-        <companyId>1</companyId>
-        <processId>reembolso</processId>
-        <version>7</version>
-        <linkSequence>23</linkSequence>
-        <bendSequence>1</bendSequence>
-      </processLinkBendPK>
-      <positionX>428</positionX>
-      <positionY>367</positionY>
-    </ProcessLinkBend>
   </list>
   <list/>
   <list/>
@@ -778,24 +523,5 @@ process.description=reembolso
   <list/>
   <list/>
   <list/>
-  <list>
-    <ConditionProcessAutomaticRules>
-      <sequence>15</sequence>
-      <expressionOrder>1</expressionOrder>
-      <ruleOrder>1</ruleOrder>
-      <field>opt_approval_manager</field>
-      <value>1</value>
-      <operator>1</operator>
-      <valueType>1</valueType>
-    </ConditionProcessAutomaticRules>
-    <ConditionProcessAutomaticRules>
-      <sequence>15</sequence>
-      <expressionOrder>2</expressionOrder>
-      <ruleOrder>1</ruleOrder>
-      <field>opt_approval_manager</field>
-      <value>0</value>
-      <operator>1</operator>
-      <valueType>1</valueType>
-    </ConditionProcessAutomaticRules>
-  </list>
+  <list/>
 </list>

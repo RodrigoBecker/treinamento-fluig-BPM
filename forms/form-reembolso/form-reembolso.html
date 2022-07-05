@@ -53,11 +53,13 @@
               <div class="row">
                 <div class="col-md-2">
                   <label for="cpf">CPF:</label>
-                  <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Informe o CPF">
+                  <input type="text" name="cpf" id="cpf" class="form-control" placeholder="Informe o CPF"
+                    mask="000.000.000-00">
                 </div>
                 <div class="col-md-2">
                   <label for="rg">RG:</label>
-                  <input type="text" name="rg" id="rg" class="form-control" placeholder="Informe o RG">
+                  <input type="text" name="rg" id="rg" class="form-control" placeholder="Informe o RG"
+                    mask="00.000.000-0">
                 </div>
                 <div class="col-md-4">
                   <label for="depto">Depto.</label>
@@ -79,14 +81,14 @@
                 Endereço:</legend>
               <div class="row">
                 <div class="col-md-6">
-                  <label for="address">Logradouro:</label>
-                  <input type="text" name="address" id="address" class="form-control"
-                    placeholder="Infome o seu endereço">
+                  <label for="street">Logradouro:</label>
+                  <input type="text" name="street" id="street" class="form-control" placeholder="Infome o seu endereço"
+                    readonly>
                 </div>
                 <div class="col-md-4">
                   <label for="neighborhood">Bairro:</label>
                   <input type="text" name="neighborhood" id="neighborhood" class="form-control"
-                    placeholder="Informe o bairro">
+                    placeholder="Informe o bairro" readonly>
                 </div>
                 <div class="col-md-2">
                   <label for="numb">Numero:</label>
@@ -96,15 +98,95 @@
               <div class="row">
                 <div class="col-md-2">
                   <label for="cep">CEP:</label>
-                  <input type="text" name="cep" id="cep" class="form-control" placeholder="Insira o CEP">
+                  <input type="text" name="cep" id="cep" class="form-control" placeholder="Insira o CEP"
+                    mask="00000-000">
                 </div>
                 <div class="col-md-3">
                   <label for="city">Cidade:</label>
-                  <input type="text" name="city" id="city" class="form-control" placeholder="Infomorme a cidade">
+                  <input type="text" name="city" id="city" class="form-control" placeholder="Infomorme a cidade"
+                    readonly>
                 </div>
                 <div class="col-md-3">
                   <label for="uf">UF</label>
-                  <input type="text" name="uf" id="uf" class="form-control" placeholder="Informe o estado">
+                  <input type="text" name="uf" id="uf" class="form-control" placeholder="Informe o estado" readonly>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend class="custom-legend"> <i class="flaticon flaticon-swim-lane icon-lg"></i> Dados Bancarios
+              </legend>
+              <div class="row">
+                <div class="col-md-2">
+                  <label for="code_bank">Cod. Banco</label>
+                  <input type="text" name="code_bank" id="code_bank" class="form-control" mask="000">
+                </div>
+                <div class="col-md-6">
+                  <label for="bank">Nome Banco:</label>
+                  <input type="text" name="bank" id="bank" class="form-control" readonly>
+                </div>
+                <div class="col-md-2">
+                  <label for="agency">Agencia:</label>
+                  <input type="text" name="agency" id="agency" class="form-control" mask="0000">
+                </div>
+
+                <div class="col-md-2">
+                  <label for="account">Conta:</label>
+                  <input type="text" name="account" id="account" class="form-control" mask="0000000-0">
+                </div>
+              </div>
+
+            </fieldset>
+
+            <fieldset>
+              <legend class="custom-legend"> <i class="flaticon flaticon-local-atm icon-lg"></i> Dados de Lançamento
+              </legend>
+              <div class="row">
+                <div class="col-md-12">
+
+                  <table id="amounts" name="amounts" tablename="table_amounts" class="table table-hover table"
+                    noaddbutton="true">
+
+                    <thead>
+                      <tr>
+                        <th class="col-md-1"> Codigo </th>
+                        <th class="col-md-4"> Descrição </th>
+                        <th class="col-md-3"> Categoria </th>
+                        <th class="col-md-2"> Valor R$ </th>
+                        <th class="col-md-2"> Data </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <input type="text" name="code" id="code" class="form-control">
+                        </td>
+                        <td>
+                          <input type="text" name="description" id="description" class="form-control">
+                        </td>
+                        <td>
+                          <input type="text" name="category" id="category" class="form-control">
+                        </td>
+                        <td>
+                          <input type="text" name="amount" id="amount" class="form-control">
+                        </td>
+                        <td>
+                          <input type="text" name="date_amount" id="date_amount" class="form-control">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-md-offset-9">
+                  <label for="total_amount">Total:</label>
+                  <input type="text" name="total_amount" id="total_amount" class="form-control">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <button class="btn btn-info" id="add" name="add"> Inserir </button>
                 </div>
               </div>
             </fieldset>
@@ -171,5 +253,7 @@
     </div>
   </div>
 </body>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="/webdesk/vcXMLRPC.js"></script>
 
 </html>
