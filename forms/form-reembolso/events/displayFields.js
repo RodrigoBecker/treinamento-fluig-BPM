@@ -27,6 +27,21 @@ function displayFields(form, customHTML) {
     log.info("*****************************************" + consts.inicio)
     form.setVisibleById("analysi", false);
     form.setVisibleById("manager", false);
+
+    // var user = getValue("WKUser");
+    // var result = getColleagueUser(user)
+
+    // form.setValue("name", result.getValue(0, "colleagueName"));
+    // form.setValue("mail", result.getValue(0, "mail"));
+
+    var user = fluigAPI.getUserService().getCurrent()
+
+    log.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" + user);
+    form.setValue("name", user.fullName);
+    form.setValue("mail", user.email)
+    form.setEnabled("name", false);
+    form.setEnabled("mail", false);
+
   }
   if (activity == consts.analisar_reembolso) {
 
@@ -58,6 +73,12 @@ function displayFields(form, customHTML) {
 //   }
 // }
 
+function getColleagueUser(user) {
 
+  var constraints = []
+  var c1 = DatasetFactory.createConstraint("colleaguePK.colleagueId", user, user, ConstraintType.MUST);
+  constraints.push(c1);
+  return DatasetFactory.getDataset("colleague", null, constraints, null);
+}
 
 

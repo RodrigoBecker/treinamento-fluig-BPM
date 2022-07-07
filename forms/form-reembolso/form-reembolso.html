@@ -67,14 +67,31 @@
                 </div>
                 <div class="col-md-4">
                   <label for="cc">Centro de Custo:</label>
-                  <select name="cc" id="cc" class="form-control">
-                    <option>001</option>
-                    <option>002</option>
-                    <option>003</option>
-                    <option>004</option>
-                  </select>
+                  <input name="cc" id="cc" class="form-control" type="zoom" data-zoom="{
+                  		 'displayKey':'code_cc',
+                  		 'datasetId':'ds_centro_de_custos',
+                       'filterValues': 'dpt_cc', 
+                  		 'maximumSelectionLength':'2',
+                  		 'placeholder':'Selecione um Centro de Custo',
+                  		 'fields':[ 
+                  		  { 
+                  		  'field':'description_cc',
+                    		'label':'Descrição',
+                    		'standard':'true'
+                    		},
+                        {
+                        'field':'code_cc',
+                    		'label':'Codigo',
+                    		'standard':'true'
+                        },
+                        {
+                        'field':'dpto_cc',
+                    		'label':'Depto.',
+                    		'standard':'true'
+                        }
+                      ]
+                    }" />
                 </div>
-
             </fieldset>
             <fieldset>
               <legend class=" legend custom-legend"> <i class="flaticon flaticon-airport-shuttle icon-lg"></i>
