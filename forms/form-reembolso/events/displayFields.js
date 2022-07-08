@@ -18,7 +18,7 @@ function displayFields(form, customHTML) {
 
   var listFields = ["name", "mail", "address", "numb", "cep", "rg", "cpf", "dpto"];
 
-  var keyargs = [];
+  var kargs = [];
 
   var activity = parseInt(getValue("WKNumState"));
   log.info("*******************************************" + activity)
@@ -39,9 +39,11 @@ function displayFields(form, customHTML) {
     log.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" + user);
     form.setValue("name", user.fullName);
     form.setValue("mail", user.email)
-    form.setEnabled("name", false);
-    form.setEnabled("mail", false);
+    //form.setEnabled("name", false);
+    //form.setEnabled("mail", false);
 
+    kargs.push("mail", "name", "cep")
+    disableField(form, listFields, kargs);
   }
   if (activity == consts.analisar_reembolso) {
 
@@ -50,28 +52,30 @@ function displayFields(form, customHTML) {
   if (activity == consts.aprovar_reembolso) {
     form.setValue("name", "Rodrigo Becker");
 
-    keyargs.push("name", "mail");
+    kargs.push("name", "mail");
 
-    //disableField(form, listFields, keyargs);
+    disableField(form, listFields, kargs);
   }
 
 }
 
-// function disableField(form, listFields, keyargs) {
 
-//   for (var j = 0; j < listFields.length; j++) {
+// function abstract disableField with array list fields and with kargs
+function disableField(form, listFields, kargs) {
 
+  for (var i = 0; i <= listFields.length; i++) {
 
-//     for (var i = 0; i < keyargs.length; i++) {
+    for (var j = 0; j < kargs.length; j++) {
 
-//       if (listFields[j] == keyargs[i]) {
-//         listFields.p
-//       }
+      if (listFields[i] == kargs[j]) {
+        listFields.splice(listFields.indexOf(listFields[i]), 1);
+        j = 0;
+      }
+    }
+    form.setEnabled(listFields[j], false);
 
-//       form.setEnabled(listFields[j], false);
-//     }
-//   }
-// }
+  }
+}
 
 function getColleagueUser(user) {
 
@@ -80,5 +84,3 @@ function getColleagueUser(user) {
   constraints.push(c1);
   return DatasetFactory.getDataset("colleague", null, constraints, null);
 }
-
-
